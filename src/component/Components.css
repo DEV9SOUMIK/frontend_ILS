@@ -1,0 +1,85 @@
+.navbar ul{
+    margin: 0px 0px 0px;
+    background: #4caf50;
+    list-style: none;
+    height: 50px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+.navbar {
+   padding: 0%;
+}
+.navbar ul li {
+    display: inline;
+    margin: 20px;
+}
+.sideBar{
+    background: rgb(235, 235, 235);
+    min-height: 100vh;
+    width: 300px;
+}
+.sideBar p{
+    margin: 0px;
+}
+.ScientistDashboard{
+    background: rgb(235, 235, 235);
+    height: 1fr;
+}
+.Login{
+    background: rgb(235, 235, 235);
+
+}
+.Login div{
+    background: rgb(255, 255, 255);
+    width: 350px;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 8px;
+    
+}
+.AdminDashboard{
+    background: rgb(255, 240, 240);
+    height: 1fr;
+    width: 1fr;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+.listofSintable{
+    background: rgb(255, 255, 255);
+}
+.Newprojectform{
+    height: 500px;
+    width: 700px;
+    
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.scintesttable{
+    width: 500px;
+    margin-left: 300px;
+}
+.navbar ul li h6 {
+    margin: 0px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    
+}
+.expform{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    /* gap: 15px; */
+    margin-top: 10px;
+}
+.addBtn{
+    margin-top: 10px;
+    background-color: bisque;
+}
+.formLable{
+    display: flex;
+    flex-direction: column;
+}
+.formLable label{
+    text-align: start;
+}

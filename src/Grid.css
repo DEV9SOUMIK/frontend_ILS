@@ -1,0 +1,41 @@
+.App{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    /* display: grid;
+   grid-template-columns: 300px 1fr;
+   grid-template-rows: 50px 1fr 1fr 1fr 1fr ; */
+}
+.navbar{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+/* .sideBar{
+    grid-row-start: 2;
+    grid-row-end: 6;
+} */
+ .d-flex{
+    display: flex;
+ }
+.ScientistDashboard{
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+.Login{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.AdminDashboard{
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 6;
+  grid-column-end: 6;
+}
+.childrenComponent{
+    padding: 10px;
+    min-height: 100vh;
+}
