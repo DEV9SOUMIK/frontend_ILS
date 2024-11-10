@@ -19,6 +19,7 @@ import Navbar from './component/Navbar';
 import { Layout } from './component/common/Layout';
 import ExpenseForm from './component/ExpenseForm';
 import Project from './component/Project';
+import Editproject from './component/Editproject';
 
 
 
@@ -34,7 +35,7 @@ function App() {
       <Route path='/signin' element={<Signin/>}/>
       <Route path='/addproject' element={<ExpenseForm/>}/>
       <Route path='/project/:id' element={<Project/>}/>
-      
+      <Route path='/editproject/:id' element={<Editproject/>}/>
       
       
    </Routes>

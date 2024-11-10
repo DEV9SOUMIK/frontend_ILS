@@ -92,7 +92,7 @@ function ItemTable() {
                 {/* Delete button */}
                 <button onClick={() => handleDelete(item._id)}>Delete</button>
                 {/* Disabled Edit button */}
-                <button disabled>Edit</button>
+                <Link to={`/editproject/${item._id}`}><button >Edit</button></Link>
                 <Link to={`/project/${item._id}`}><button >Open</button></Link>
               </td>
             </tr>
